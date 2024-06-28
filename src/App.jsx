@@ -1,15 +1,14 @@
-import { HookStateArray, HookUseState, HookUseStateObject } from './components'
+
 
 // style 
 import "./App.css"
+import { HookUseEffect, HookUseEffect2 } from "./components"
 
 function App() {
 
   return (
     <div style={container}>
-      {/* <HookUseState /> */}
-      {/* <HookUseStateObject /> */}
-      <HookStateArray />
+      <HookUseEffect2/>
     </div>
   )
 }

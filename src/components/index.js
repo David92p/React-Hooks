@@ -1,5 +1,4 @@
-import HookUseState from "./HookUseState";
-import HookUseStateObject from "./HookUseStateObject";
-import HookStateArray from "./HookStateArray";
+import HookUseEffect from "./HookUseEffect";
+import HookUseEffect2 from "./HookUseEffect2";
 
-export {HookUseState, HookUseStateObject, HookStateArray}
+export { HookUseEffect, HookUseEffect2 }
