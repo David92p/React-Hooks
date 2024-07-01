@@ -12,7 +12,6 @@ const MouseListener = () => {
 	// useEffect ha la possibilita di ritornare una funzione, chiamata funzione cleanup, che ha il compito di resettare lo stato del componente
 	useEffect(() => {
 		window.addEventListener("mousemove", logMousePosition)
-
 		// cleanup function
 		return () => {
 			console.log("Componente smontato")

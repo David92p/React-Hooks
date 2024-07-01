@@ -2,13 +2,13 @@
 
 // style 
 import "./App.css"
-import { HookUseEffect, HookUseEffect2 } from "./components"
+import { DataFetching, DataFetching2, HookUseEffect, HookUseEffect2, IntervalHookCounter } from "./components"
 
 function App() {
 
   return (
     <div style={container}>
-      <HookUseEffect2/>
+      <DataFetching2/>
     </div>
   )
 }
