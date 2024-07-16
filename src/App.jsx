@@ -2,13 +2,13 @@
 
 // style 
 import "./App.css"
-import { DataFetching, DataFetching2, HookUseEffect, HookUseEffect2, IntervalHookCounter } from "./components"
+
 
 function App() {
 
   return (
     <div style={container}>
-      <DataFetching2/>
+      
     </div>
   )
 }
