@@ -1,22 +1,13 @@
 // style 
-import { createContext } from "react"
 import "./App.css"
-import { ComponentA } from "./components"
-
-// Inziamo creando un context con il metodo createContext
-export const USERCONTEXT = createContext()
-export const CHANNELCONTEXT = createContext()
+import {CounterOne, CounterTwo} from "./components"
 
 function App() {
 
   return (
     <div style={container}>
-      {/* Racchiudiamo il componente principale che utilizzerà il context tramite un provider e forniamo il suo valore  */}
-      <USERCONTEXT.Provider value={"David"}>
-        <CHANNELCONTEXT.Provider value={{github:"David92p"}}>
-          <ComponentA/>
-        </CHANNELCONTEXT.Provider>
-      </USERCONTEXT.Provider>
+      {/* <CounterOne/> */}
+      <CounterTwo />
     </div>
   )
 }

@@ -1,6 +1,4 @@
-import ComponentA from "./ComponentA";
-import ComponentB from "./ComponentB";
-import ComponentC from "./ComponentC";
-import ComponentD from "./ComponentD";
+import CounterOne from "./CounterOne"
+import CounterTwo from "./CounterTwo"
 
-export { ComponentA, ComponentB, ComponentC, ComponentD }
+export { CounterOne, CounterTwo }
