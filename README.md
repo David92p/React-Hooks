@@ -1,7 +1,7 @@
 # useContext Hook
 
 <div align="center">
-    <img src="src/assets/context.png" alt="useContext" width="300" height="150">
+    <img src="src/assets/context.png" alt="useContext" width="500" height="250">
 </div>
 
 ## useContext Hook ci consente di passare dati attraverso l'albero dei componenti senza passare manualmente le props
