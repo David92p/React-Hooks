@@ -1,5 +1,5 @@
-import CounterOne from "./CounterOne"
-import CounterTwo from "./CounterTwo"
-import CounterThree from "./CounteThree"
+import ComponentA from "./ComponentA";
+import ComponentB from "./ComponentB";
+import ComponentC from "./ComponentC";
 
-export { CounterOne, CounterTwo, CounterThree }
+export { ComponentA, ComponentB, ComponentC }
