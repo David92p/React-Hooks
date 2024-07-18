@@ -1,13 +1,14 @@
 // style 
 import "./App.css"
-import {CounterOne, CounterTwo} from "./components"
+import {CounterOne, CounterThree, CounterTwo} from "./components"
 
 function App() {
 
   return (
     <div style={container}>
       {/* <CounterOne/> */}
-      <CounterTwo />
+      {/* <CounterTwo /> */}
+      <CounterThree/>
     </div>
   )
 }

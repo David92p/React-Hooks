@@ -27,7 +27,7 @@ const reducer = (state, action) => {
 }
 
 const CounterTwo = () => {
-	// proprio come useReducer possiamo destrutturare useReducer in due parametri
+	// proprio come useState possiamo destrutturare useReducer in due parametri
 	// count come valore di stato, dispach che accetta un'azione da eseguire nel reducer
 	const [count, dispatch] =  useReducer(reducer, initialState) //richiamiamo useReducer passando due argomenti, il primo è una funzione di reducer e il secondo uno state iniziale
 
