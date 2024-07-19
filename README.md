@@ -6,8 +6,10 @@
 
 ## Global State 
 ### Conosci l'importanza di avere uno stato globale all'interno della tua applicazione? 
-    <ul>
-        <li>
+<ul style="list-style-type: none;">
+
+</ul>
+    <li>
             Uno stato globale ci permette di avere accesso ad uno o insieme di dati dinamici all'interno della nostra applicazione
         </li>
         <li>
@@ -19,7 +21,8 @@
             Grazie all'utilizzo di useReducer creiamo uno stato all'interno del componente principale e rendiamolo disponibile all'interno 
             della gerarchia dei componenti. Utiliziamo useContext per fare questo
         </li>
-     </ul>
+        
+</ul>
 
 <ul
     <li><h3>1. Perchè utilizzare useContext insieme ad useReducer</h3></li>
