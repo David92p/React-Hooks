@@ -6,8 +6,8 @@ const ComponentF = () => {
   const countContext = useContext(COUNTCONTEXT)
   return (
     <div style={container}>
-      COMPONENT F
-
+		{/* Visualiziamo lo state global trasmesso tramite il context derivante da App.jsx */}
+      COMPONENT F { countContext.countState }
       <button 
         // utiliziamo la proprietà countDispatch del context che richiama il dispatch del reducer
 				onClick={() => countContext.countDispatch({type: "increment"})} style={button}>increment counter 1
@@ -32,7 +32,7 @@ const container = {
 	alignItems: "center",
 	gap: 8,
 	fontSize: "80px",
-	width: "600px",
+	width: "800px",
 	height: "300px",
 	backgrounColor: "red",
 }

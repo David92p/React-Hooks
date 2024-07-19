@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div style={container}>
-      COUNT STATE: { count }
+      COUNT STATE FROM APP: { count }
       {/* IL PROVIDER FORNIRA' AI COMPONENTI E I SUOI FIGLI UN VALORE CHE AVRA' IL VALORE DEL COUNT STATE E UN VALORE PER EFFETTUARE LE AZIONI SULLO STATE */}
       <COUNTCONTEXT.Provider value={{countState: count, countDispatch: dispatch}}>
         <ComponentA />
