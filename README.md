@@ -33,4 +33,4 @@
 
 
 Documentazione ufficiale:
-- [useReducer](https://react.dev/reference/react/useContext)
+- [useContext](https://react.dev/reference/react/useContext)
