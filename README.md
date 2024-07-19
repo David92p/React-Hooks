@@ -16,7 +16,8 @@
    useReducer, come già visto, ci da la possibilità di creare uno stato all'interno di un componente controllabile
    e mantenibile in un'unica soluzione utilizzando e richiamando semplicemente un dispatch all'interno del componente.
    Pensa alla possibilità di condividere queste funzionalità in tutta l'applicazione.
-   Passare delle semplici proprietà dal componente A al componente B o C risulta piuttosto semplice, ma se questi componenti
+   Passare delle semplici proprietà dal componente A al componente B o C risulta piuttosto semplice,
+   ma se questi componenti
    risultassero centinaia di componenti? Semplice, utiliziamo un context!
    ```
 3. L'importanza di un context per espandere useReducer
