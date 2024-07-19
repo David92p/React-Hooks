@@ -30,7 +30,7 @@
     <li><h3>1. Perchè utilizzare useContext insieme ad useReducer</h3></li>
     <ul>
         <li>
-            La creazione di diversi componenti all'interno della nostra applicazione ci permette di mantenere il nostro lavoro
+            La creazione di diversi componenti all'interno della nostra applicazione ci permette di mantenere il nostro progetto
            mantenibile nel tempo. La possibilità di peter passare proprietà attraverso i vari componenti risulta molto utile
            per poter tenere il nostro codice in ordine, ma sempre mantendo un approcio di familiarità.
            Questo ci pone di fronte al concetto di scalabilità
