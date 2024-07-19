@@ -4,6 +4,23 @@
     <img src="src/assets/useContext&useReducer.png" alt="useContext&useReducer" width="500" height="250">
 </div>
 
+## Global State 
+### Conosci l'importanza di avere uno stato globale all'interno della tua applicazione? 
+    <ul>
+        <li>
+            Uno stato globale ci permette di avere accesso ad uno o insieme di dati dinamici all'interno della nostra applicazione
+        </li>
+        <li>
+            Sul concetto di stato all'interno di un componente, pensiamo all'utilizzo che viene fatto di questo dato. Possiamo passarlo 
+            attraverso i componenti, aggiornarlo e renderlo dinamico attraverso le props, ma sempre mantenendo un concetto di scalabilità.
+            Questo risulta controproducente in larga scala. Pensiamo ad un'applicazione con centinaia di componenti.
+        </li>
+        <li>
+            Grazie all'utilizzo di useReducer creiamo uno stato all'interno del componente principale e rendiamolo disponibile all'interno 
+            della gerarchia dei componenti. Utiliziamo useContext per fare questo
+        </li>
+     </ul>
+
 <ul
     <li><h3>1. Perchè utilizzare useContext insieme ad useReducer</h3></li>
     <ul>
