@@ -1,6 +1,6 @@
 // style 
 import "./App.css"
-import {CounterOne, CounterThree, CounterTwo, DataFetching} from "./components"
+
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
       {/* <CounterOne/> */}
       {/* <CounterTwo /> */}
       {/* <CounterThree/> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
     </div>
   )
 }
