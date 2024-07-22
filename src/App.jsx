@@ -1,6 +1,6 @@
 // style 
 import "./App.css"
-import {CounterOne, CounterThree, CounterTwo} from "./components"
+import {CounterOne, CounterThree, CounterTwo, DataFetching} from "./components"
 
 function App() {
 
@@ -8,7 +8,8 @@ function App() {
     <div style={container}>
       {/* <CounterOne/> */}
       {/* <CounterTwo /> */}
-      <CounterThree/>
+      {/* <CounterThree/> */}
+      <DataFetching />
     </div>
   )
 }
