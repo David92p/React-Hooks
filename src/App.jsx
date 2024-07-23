@@ -1,15 +1,13 @@
 // style 
 import "./App.css"
+import { UseStateVSuseReducer } from "./components"
 
 
 function App() {
 
   return (
     <div style={container}>
-      {/* <CounterOne/> */}
-      {/* <CounterTwo /> */}
-      {/* <CounterThree/> */}
-      {/* <DataFetching /> */}
+      <UseStateVSuseReducer/>
     </div>
   )
 }
