@@ -15,7 +15,8 @@
     <li><h3>2. Controllare il rendering</h3></li>
     <ul>
         <li>
-            Come hai già studiato possiamo controllare il rendering di un componente attraverso delle condizioni if, condizioni ternarie e operatori logici come && e ||, <a href="https://kinsta.com/it/blog/rendering-condizionale-react/">quì</a> un breve riepilogo.
+            Come hai già studiato possiamo controllare il rendering di un componente attraverso delle condizioni if, condizioni ternarie e operatori logici come && e ||.
+            <a href="https://kinsta.com/it/blog/rendering-condizionale-react/">Quì</a> un breve riepilogo.
         </li>
      </ul>
 </ul>
