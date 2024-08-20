@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { List } from "./"
 
 const WithoutuseCallback = () => {
 
 	// ENTRAMBI GLI STATI AZIONANO IL RENDERING DEL COMPONENTE PER INTERO
-  const [number, setNumber] = useState(1)
+	const [number, setNumber] = useState(1)
 	const [dark, setDark] = useState(false)
 
 	// QUESTA FUNZIONE VIENE RICREATE OGNI VOLTA CHE IL COMPONENTE APP ESEGUE IL RENDERING
 	// OGNI VOLTA CHE CAMBIAMO IL NUMERO NELL'INPUT LA FUNZIONE VIENE RICREATE, PROPRIO PER QUESTO QUANDO VIENE RIPASSATA AL COMPONENTE LIST ABBIAMO UN NUOVO RENDERING DI QUEST'ULTIMO
-	// E' COME SE IL COMPONENTE LIST OTTIENE UNA NUOVA FUNZIONE OGNI VOLTA CHE ABBIAMO IL RENDERING
-	const getItems = (incrementor) => {
-		return [number + incrementor, number + incrementor + 1, number + incrementor + 2]
+	// E' COME SE IL COMPONENTE LIST OTTIENE UNA NUOVA FUNZIONE OGNI VOLTA CHE ABBIAMO IL RENDERING 
+	const getItems = () => {
+		return [number, number + 1, number + 2]
 	}
 
 	const theme = {
@@ -27,9 +27,6 @@ const WithoutuseCallback = () => {
 		border: "2px solid red"
 	}
 
-	useEffect(() => {
-		console.log(number, typeof number)
-	}, [number])
 
 	// QUESTO COMPONENTE EFFETTUA IL RENDERING AD OGNI MODIFICA, COMPRESO IL COMPONENTE LIST AL SUO INTERNO
   return (

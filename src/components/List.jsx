@@ -5,7 +5,7 @@ const List = ({ getItems }) => {
 	const [items, setItems] = useState([])
 
 	useEffect(() => {
-		setItems(getItems(5))
+		setItems(getItems())
 		console.log("LIST COMPONENT RENDERING !!!")
 	}, [getItems])
 
@@ -17,7 +17,7 @@ const List = ({ getItems }) => {
 		gap: 10,
 		fontSize: "40px",
 	}
-	return items.map(item => <div key={Math.floor(Math.random() * 10000)}>{item}</div>)
+	return items.map(item => <div style={listStyle} key={Math.floor(Math.random() * 10000)}>{item}</div>)
 }
 
 export default List

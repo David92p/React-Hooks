@@ -1,6 +1,6 @@
 // style 
 import "./App.css"
-import { WithoutuseCallback } from "./components"
+import { HookuseCallback, WithoutuseCallback, WithoutuseMemo } from "./components"
 
 
 
@@ -8,7 +8,9 @@ function App() {
 
   return (
     <div style={container}>
-      <WithoutuseCallback/>
+      {/* <WithoutuseCallback/> */}
+      {/* <HookuseCallback /> */}
+      <WithoutuseMemo />
     </div>
   )
 }
