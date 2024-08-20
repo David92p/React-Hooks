@@ -22,7 +22,7 @@
     <li><h3>3. Gestione del rendering</h3></li>
     <ul>
         <li>
-            Utilizzando la strategie di rendering sopra descritte possiamo fare in modo di controllare le parti del codice visualizzato, ma questo non gestisce le performance dell'applicazione. Ogni volta che il componente effetua un             rendering ricarica tutti i dati al suo interno, questo a descapito delle performance. 
+            Utilizzando la strategie di rendering sopra descritte possiamo fare in modo di controllare le parti del codice visualizzato, ma questo non gestisce le performance dell'applicazione. Ogni volta che il componente effettua un             rendering ricarica tutti i dati al suo interno, questo a descapito delle performance. 
             Pensiamo ad un'applicazione con 100 componenti, ad ogni aggiornamento verrà effettuato tutto il codice al suo interno compreso il codice nei componenti figli.
         </li>
      </ul>
