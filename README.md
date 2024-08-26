@@ -1,7 +1,7 @@
 # useRef Hook
 
 <div align="center">
-    <img src="src/assets/useRef.png" alt="useRef" width="500" height="250">
+    <img src="src/assets/useRef.png" alt="useRef" width="800" height="250">
 </div>
 
 ## useRef è utilizzato per accedere a gli elementi del dom 
