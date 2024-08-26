@@ -1,13 +1,21 @@
-# react-hooks
+# useRef Hook
 
-## Hooks vengono solitamente richiamati nella parte iniziale del componente 
-## Non richiamare gli Hooks all'interno di loops, condizioni o funzioni nidificate
-## Gli Hooks sono esclusivamente per applicazioni React
+## useRef è utilizzato per accedere a gli elementi del dom 
+## useRef è molto utile soprattutto quando dobbiamo interaggire con i valori del dom senza però causare un nuovo rendering del componente 
+## ricorda che useRef è un oggetto, ti basterà accedere alla chiave current per visualizzare i suoi valori
 
-# Ordine di lettura 
+## useRef VS useState
 
-## useState
-## useEffect
-## useContext
-## useReducer
-## useContext&useReducer
+<ul>
+    <li>
+        useState causa il re-render del commponente quando il suo valore cambia
+    </li>
+    <li>
+        useRef non causa il re-render quando cambiamo il suo valore
+    </li>
+    <li>
+        useRef viene utilizzato quando hai bisogno che il componente ricordi alcune informazioni, abbia accesso a queste e le modifichi senza causa un nuovo render del componente
+    </li>
+</ul>
+
+
