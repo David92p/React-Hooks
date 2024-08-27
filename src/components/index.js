@@ -1,4 +1,4 @@
-import HookuseRefFirstPart from "./HookuseRefFirstPart";
-import HookuseRefSecondpart from "./HookuseRefSecondpart";
+import DocTitleOne from "./withoutCustomHook/DocTitleOne";
+import DocTitleTwo from "./withoutCustomHook/DocTitleTwo";
 
-export { HookuseRefFirstPart , HookuseRefSecondpart}
+export { DocTitleOne, DocTitleTwo }
