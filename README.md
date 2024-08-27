@@ -1,5 +1,9 @@
 # useRef Hook
 
+<div align="center">
+    <img src="src/assets/useRef.png" alt="useRef" height="100">
+</div>
+
 ## useRef è utilizzato per accedere a gli elementi del dom 
 ## useRef è molto utile soprattutto quando dobbiamo interaggire con i valori del dom senza però causare un nuovo rendering del componente 
 ## ricorda che useRef è un oggetto, ti basterà accedere alla chiave current per visualizzare i suoi valori
@@ -18,4 +22,5 @@
     </li>
 </ul>
 
-
+Documentazione ufficiale:
+- [useRef](https://react.dev/reference/react/useRef)
