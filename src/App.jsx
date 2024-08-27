@@ -1,10 +1,11 @@
 import './App.css'
-import HookuseRefFirstPart from './components/HookuseRefFirstPart'
+import { HookuseRefFirstPart, HookuseRefSecondpart } from './components'
 
 function App() {
   return (
     <div style={container}>
-      <HookuseRefFirstPart/>
+      {/* <HookuseRefFirstPart/> */}
+      <HookuseRefSecondpart />
     </div>
   )
 }
