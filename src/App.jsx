@@ -1,20 +1,24 @@
+import { useEffect } from 'react'
 import './App.css'
-import { DocTitleOne, DocTitleTwo } from './components'
+import { CounterOne, CounterTwo, CounterThree, CounterFour, UserForm }  from "./components"
 
 function App() {
+  useEffect(() => {
+    console.log(document.title)
+  })
   return (
     <div style={container}>
       <div>
-        {/* I DUE COMPONENTI AGGIORNANO UNO STATO TRAMITE USESTATE E IL TITLE DEL DOCUMENT AD OGNI RENDER CAUSATO DA USESTATE
+        {/* I DUE COMPONENTI AGGIORNANO UNO STATO TRAMITE USESTATE 
         NOTIAMO COME I DUE COMPONENTI ANCHE SE DIVISI UTILIZZANO LA STESSA LOGICA AL SUO INTERNO */}
-        <DocTitleOne />
-        <DocTitleTwo />
+        {/* <CounterOne />
+        <CounterTwo /> */}
+        <UserForm />
       </div>
       <div>
-        {/*I DUE COMPONENTI HANNO UN PROPRIO STATO INTERNO AGGIORNATO DA UN BUTTON, CONDIVIDONO LA STESSA LOGICA ANDANDO A SETTARE IL TITLE DEL DOCUMENT 
-        QUESTO VIENE FATTO ATTRAVERSO UN CUSTOM HOOK PASSANDO LA PROPRIETA' RICHIESTA */}
-        <DocTitleOne />
-        <DocTitleTwo />
+        {/*I DUE COMPONENTI VISUALIZZANO LO STESSO RISULTATO, CONDIVIDONO LA STESSA LOGICA ATTRAVERSO UN CUSTOM HOOK PASSANDO LA PROPRIETA' RICHIESTA */}
+        {/* <CounterThree />
+        <CounterFour /> */}
       </div>
     </div>
   )
