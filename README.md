@@ -1,11 +1,11 @@
 # useState Hook
 
-## useState Hook ci consente di avere una variabile di stato in un componente funzionale
-## A differenza delle classi, dove lo stato è sempre un oggetto, uno stato all'interno di un componente funzionale puà avere altri tipi di valore
-## useState Hook ritorna sempre due elementi, il primo elemento è il valore corrente mentre il secondo elemento è una funzione per settare lo stato e aggiornarlo
+### useState Hook ci consente di avere una variabile di stato in un componente funzionale
+### A differenza delle classi, dove lo stato è sempre un oggetto, uno stato all'interno di un componente funzionale puà avere altri tipi di valore
+### useState Hook ritorna sempre due elementi, il primo elemento è il valore corrente mentre il secondo elemento è una funzione per settare lo stato e aggiornarlo
 
 <div align="center">
-    <img src="src/assets/usestate-1.png" alt="useState1" width="500" height="250">
+    <img src="src/assets/usestate-1.png" alt="useState1" width="500" height="150">
 </div>
 ## Quando aggiorno uno stato in un componente funzionale causo sempre un nuovo rendering del componente, ricostruendolo e visualizzando il nuovo valore
 ## Quando il nuovo valore dipende dal vecchio valore, posso passare una funzione di cb per richiamare il setter dello state
