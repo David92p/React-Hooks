@@ -6,3 +6,9 @@
 <div align="center">
     <img src="src/assets/useEffect-1.png" alt="useEffect" width="500" height="250">
 </div>
+
+### useEffect è una buona soluzione per gestire le fasi di montaggio, smontaggio e aggiornamento dello stesso componente
+
+<div align="center">
+    <img src="src/assets/useEffect-2.png" alt="useEffect" width="500" height="250">
+</div>
