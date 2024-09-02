@@ -1,4 +1,8 @@
 # useEffect Hook
 
-## useState Hook ci consente di eseguire operazioni quando il componente viene montato, smontato o aggiornato 
-## Ci consente di gestire i cicli di vita del componente
+### useEffect Hook ci consente di eseguire operazioni sul ciclo di vita del componente 
+### In precedenza con i class components era richiesto il controllo del componente attraverso la scrittura di diversi metodi. Questo rendeva il codice ripetitivo e complesso
+
+<div align="center">
+    <img src="src/assets/useEffect-1.png" alt="useEffect" width="500" height="250">
+</div>
