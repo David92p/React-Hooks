@@ -21,7 +21,7 @@
             Con il metodo reducer che andremo a costruire specifichiamo due parametri: uno stato corrente e delle actions che andranno a modificare il nostro stato, per ora pensa a delle azioni che determinato il tipo di transizione tra 
             lo stato attuale al nuovo stato. Il reducer restituirà sempre uno nuovo stato con o senza modifiche a seconda delle actions.
             <div align="center">
-                <img src="src/assets/useReducer-2.png" alt="useReducer" width="400" height="250">
+                <img src="src/assets/useReducer-2.png" alt="useReducer" width="400" height="100">
             </div>
         </li>
      </ul>
