@@ -1,7 +1,7 @@
 ## useContext Hook
 
 <div align="center">
-    <img src="src/assets/context.png" alt="useContext" width="500" height="250">
+    <img src="src/assets/usestate-1.png" alt="useState1" width="500" height="250">
 </div>
 
 ### useContext Hook per la scalabilità dei tuoi componenti
