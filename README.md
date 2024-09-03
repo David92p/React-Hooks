@@ -39,7 +39,7 @@
     <li><h3> 2. Ridurre il codice </h3></li>
     <ul>
         <li>
-            In ogni componente di classe è necessario ricordare i gestori di eventi e riscriverli al suo interno. DI conseguenza possiamo osservare come un componente di classe non minimizzano bene la stesura di codice  
+            In ogni componente di classe è necessario ricordare i gestori di eventi e riscriverli al suo interno. Di conseguenza possiamo osservare come questi non minimizzano il codice rendendolo lungo e complesso.  
         </li>
      </ul>
     <li><h3> 3. Agevolare la stesura della sintassi </h3></li>
