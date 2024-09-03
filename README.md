@@ -45,7 +45,7 @@
     <li><h3> 3. Agevolare la stesura della sintassi </h3></li>
     <ul>
         <li>
-            Quando viene creato un componente di classe con scenari più complessi come fare il fetch di dati o registrare degli eventi, il codice risulta poco organizzato gestendo il ciclo di vita da diversi punti. 
+            Quando viene creato un componente di classe con scenari più complessi come fare il fetch di dati o registrare degli eventi, il codice risulta poco organizzato gestendo il ciclo di vita da diversi punti. <br>
             Esempio: per il recupero di dati solitamente viene eseguito del codice sia per quando il componente viene montato sia per quando questo viene aggiornato. Questo crea diverse righe di codice aumentandone la complessità.
             Gli hooks ti permettono di semplificare questi concetti richiamando le funzionalità necessarie.
         </li>
