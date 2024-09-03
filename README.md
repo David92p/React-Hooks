@@ -28,7 +28,7 @@
      </ul>
 </ul>
 
-## Perchè sono state creati gli hooks?
+## Perchè sono stati creati gli hooks?
 <ul>
     <li><h3> 1. Semplificare i concetti </h3></li>
     <ul>
