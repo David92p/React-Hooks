@@ -42,7 +42,7 @@
             In ogni componente di classe è necessario ricordare i gestori di eventi e riscriverli al suo interno. DI conseguenza possiamo osservare come un componente di classe non minimizzano bene la stesura di codice  
         </li>
      </ul>
-    <li><h3> 3. Semplificare la sintassi </h3></li>
+    <li><h3> 3. Agevolare la stesura della sintassi </h3></li>
     <ul>
         <li>
             Quando viene creato un componente di classe con scenari più complessi come fare il fetch di dati o registrare degli eventi, il codice risulta poco organizzato gestendo il ciclo di vita da diversi punti. 
