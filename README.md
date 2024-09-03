@@ -63,7 +63,7 @@
 
 ### Precisazioni
 <ul>
- <li>Nellla libreria React esistono anche altri hooks built-in che non sono stati elencati in questa documentazion.</li>
+ <li>Nellla libreria React esistono anche altri hooks built-in che non sono stati elencati in questa documentazione.</li>
  <li>Sono stati scelti gli hooks più usati per aiutarti ad affrontare le sfide più comuni.</li>
  <li>Utilizza la documentazione ufficiale che ti ho elencato in basso per scoprirne altri</li>
  <li>Per ogni hooks descritto, potrai trovare la documentazione ufficiale in fondo alla pagina</li>
