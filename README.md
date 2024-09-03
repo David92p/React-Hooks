@@ -62,10 +62,12 @@
  </ul>
 
 ### Precisazioni
-#### Nellla libreria React esistono anche altri hooks built-in che non sono stati elencati in questa documentazion.
-#### Sono stati scelti gli hooks più usati per aiutarti ad affrontare le sfide più comuni.
-#### Utilizza la documentazione ufficiale che ti ho elencato in basso per scoprirne altri
-#### Per ogni hooks descritto, potrai trovare la documentazione ufficiale in fondo alla pagina
+<ul>
+ <li>Nellla libreria React esistono anche altri hooks built-in che non sono stati elencati in questa documentazion.</li>
+ <li>Sono stati scelti gli hooks più usati per aiutarti ad affrontare le sfide più comuni.</li>
+ <li>Utilizza la documentazione ufficiale che ti ho elencato in basso per scoprirne altri</li>
+ <li>Per ogni hooks descritto, potrai trovare la documentazione ufficiale in fondo alla pagina</li>
+</ul>
 
 ### Consigli per un buon ordine di lettura, ma sentiti libero di leggere gli esempi a tuo piacimento
 <ul>
