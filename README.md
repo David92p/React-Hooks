@@ -28,14 +28,59 @@
      </ul>
 </ul>
 
-## Hooks vengono solitamente richiamati nella parte iniziale del componente 
-## Non richiamare gli Hooks all'interno di loops, condizioni o funzioni nidificate
-## Gli Hooks sono esclusivamente per applicazioni React
+## Perchè sono state creati gli hooks?
+<ul>
+    <li><h3> 1. Semplificare i concetti </h3></li>
+    <ul>
+        <li>
+            Questo è più legato a javascript che a React stesso, infatti per lavorare con le classi bisogna avere bene in mente il concetto della key "this" in javascript, che è molto differente da chi proviene da altri linguaggi.
+        </li>
+     </ul>
+    <li><h3> 2. Ridurre il codice </h3></li>
+    <ul>
+        <li>
+            In ogni componente di classe è necessario ricordare i gestori di eventi e riscriverli al suo interno. DI conseguenza possiamo osservare come un componente di classe non minimizzano bene la stesura di codice  
+        </li>
+     </ul>
+    <li><h3> 3. Semplificare la sintassi </h3></li>
+    <ul>
+        <li>
+            Quando viene creato un componente di classe con scenari più complessi come fare il fetch di dati o registrare degli eventi, il codice risulta poco organizzato gestendo il ciclo di vita da diversi punti. 
+            Esempio: per il recupero di dati solitamente viene eseguito del codice sia per quando il componente viene montato sia per quando questo viene aggiornato. Questo crea diverse righe di codice aumentandone la complessità.
+            Gli hooks ti permettono di semplificare questi concetti richiamando le funzionalità necessarie.
+        </li>
+     </ul>
+</ul>
 
-# Ordine di lettura 
+## Ricorda 
+<ul>
+    <li> Gli hooks possono essere utilizzati in un progetto react con versione 16 o superiore </li>
+    <li> Utilizzare gli hooks in un progetto è sempre un opzione, puoi continuare a scrivere i tuoi componenti come hai sempre fatto </li>
+    <li> Il concetto di classe non è stato eliminato dal team di React, puoi quindi continuare a scrivere i tuoi class components introducendo gradualmente gli hooks all'interno dei componenti funzionali</li>
+    <li> Puoi utilizzare entrambi gli approcci nel tuo progetto e non sostituisco la tua conoscenza nei concetti principali di React</li>
+    <li> Gli hooks forniscono un utilizzo più diretto per quando riguarda i concetti che già conosci, come il contesto dello stato delle props e il ciclo di vita del componente </li>
+ </ul>
 
-## useState
-## useEffect
-## useContext
-## useReducer
-## useContext&useReducer
+### Precisazioni
+#### Nellla libreria React esistono anche altri hooks built-in che non sono stati elencati in questa documentazion.
+#### Sono stati scelti gli hooks più usati per aiutarti ad affrontare le sfide più comuni.
+#### Utilizza la documentazione ufficiale che ti ho elencato in basso per scoprirne altri
+#### Per ogni hooks descritto, potrai trovare la documentazione ufficiale in fondo alla pagina
+
+### Consigli per un buon ordine di lettura, ma sentiti libero di leggere gli esempi a tuo piacimento
+<ul>
+    <li>useState</li>
+    <li>useEffect</li>
+    <li>useContext</li>
+    <li>useReducer</li>
+    <li>useContext&useReducer</li>
+    <li>useStateVSuseReducer</li>
+    <li>useCallback&useMemo</li>
+    <li>useRef</li>
+    <li>customHook</li>
+</ul>
+
+
+Documentazione ufficiale:
+- [React Hooks](https://react.dev/reference/react/hooks)
+
